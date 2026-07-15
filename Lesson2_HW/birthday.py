@@ -1,3 +1,4 @@
+#First Friend
 friend1 = "20/11/2010|Allison"
 
 #Second Friend
