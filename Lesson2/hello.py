@@ -1,3 +1,4 @@
+#SIMPLE VARIABLES
 print("Welcome to python world")
 age = 14
 print("age")

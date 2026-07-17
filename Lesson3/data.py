@@ -1,3 +1,4 @@
+#DATATYPES & USER INPUT 
 name = input("Please type your name")
 print(f"Hello, I am your agent {name}")
 agent_number = int(input("Enter your agent number"))
@@ -19,6 +20,7 @@ m = int(marks)
 print(f"The age is {m}, The type is {type(m)}")
 
 #STRING OPERATIONS
+#Indexing
 name = input("Please enter your name")
 print(name)
 print(name[0])
@@ -26,10 +28,10 @@ print(name[2])
 print(name[-1])
 print(name[-2])
 
-#slicing
+#Slicing
 print(name[0:4])
 
-#contenation
+#Concentation
 first_name = "Srihari"
 surname = "T"
 print(first_name + surname)
