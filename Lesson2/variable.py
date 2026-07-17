@@ -1,4 +1,5 @@
 #FORMATTED STRING
+#the f is another way to print statements when you have variables 
 x = 5
 y = "7"
 z = 9
