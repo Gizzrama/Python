@@ -1,6 +1,6 @@
 #ARITHMETIC OPERATORS
 # +, -, *, /, //(floor division: divides two operands(integers) and rounds the result to the nearest integer), 
-#% (Modulus: shows the remainder of the division)
+#% (Modulus: shows the remainder of the division), (**): Exponentiation
 name = input("Please enter your name")
 print(name)
 field1 = 5
@@ -50,4 +50,23 @@ x//=5
 print(x)
 x%=7
 print(x)
+
+#| Operator | Name | Equivalent Syntax | Example (Assuming x = 5) |
+#| :--- | :--- | :--- | :--- |
+#| `=` | Simple Assignment | x = y | x = 5 |
+#| `:=` | Walrus Operator | `(x := y)` | `if (n := len(a)) > 10:` |
+#| `+=` | Addition Assignment | `x = x + y` | `x += 3` (x becomes 8) |
+#| `-=` | Subtraction Assignment | `x = x - y` | `x -= 2` (x becomes 3) |
+#| `*=` | Multiplication Assignment | `x = x * y` | `x *= 4` (x becomes 20) |
+#| `/=` | Division Assignment | `x = x / y` | `x /= 2` (x becomes 2.5) |
+#| `//=` | Floor Division Assignment | `x = x // y` | `x //= 2` (x becomes 2) |
+#| `%=` | Modulus Assignment | `x = x % y` | `x %= 3` (x becomes 2) |
+#| `**=` | Exponentiation Assignment | `x = x ** y` | `x **= 2` (x becomes 25) |
+#| `@=` | Matrix Multiplication | `x = x @ y` | `x @= y` (Used in NumPy) |
+#| `&=` | Bitwise AND Assignment | `x = x & y` | `x &= 3` (x becomes 1) |
+#| `\|=` | Bitwise OR Assignment | `x = x \| y` | `x \|= 3` (x becomes 7) |
+#| `^=` | Bitwise XOR Assignment | `x = x ^ y` | `x ^= 3` (x becomes 6) |
+#| `>>=` | Right Shift Assignment | `x = x >> y` | `x >>= 1` (x becomes 2) |
+#| `<<=` | Left Shift Assignment | `x = x << y` | `x <<= 1` (x becomes 10) |
+ 
 
