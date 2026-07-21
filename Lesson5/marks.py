@@ -6,10 +6,11 @@ english = int(input("Enter your marks for english"))
 total = maths + science + english
 average = total/3
 
+#The and operator connects several variables or functions. Here, the output is only satisfied once all the statements connected by the and operator are true.
 if maths >= 60 and science >= 50 and english >= 40 and average > 60:
     print("Congrats! You can take the admission")
 
 else:
     print("Sorry, you are not eligible")
-    
+
 

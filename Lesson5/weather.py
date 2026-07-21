@@ -5,10 +5,11 @@ temperature = int(input("What is the temperature?"))
 is_raining = input("If it is raining, enter yes or no")
 wind_speed = int(input("Enter the wind speed"))
 
+#The if statement is used to print an output only if something is true or false
 if temperature < 20:
     outfit = "jacket"
     print("It is a cold day, wear a ", outfit)
-
+#else is the opposite of if; if something doesn't satisfy the if statement, the else statement is used to print the opposite
 else:
     outfit = "T-shirt"
     print("It is a warm day, wear a ", outfit)
@@ -23,7 +24,7 @@ else:
     print("It is a calm day")
 print("Weather outfit peeker")
 print("The temperature is ", temperature)
-print("The woind speed is ", wind_speed)
+print("The wind speed is ", wind_speed)
 print("Is it raining?", is_raining)
 
 
