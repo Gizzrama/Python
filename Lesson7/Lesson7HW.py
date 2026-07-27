@@ -1,13 +1,15 @@
 
-print(ord("b"))
-print(ord("5"))
+print("ASCII String Value Checker")
 
-print(chr(78))
-print(chr(90))
+#print(ord("b")) --> The ord
+#print(ord("5"))
 
-character = input("Enter a single string character: ").strip()
+#print(chr(78))
+#print(chr(90))
 
-if type(character) is str and len(character) == 1:
+character = input("Enter a single character: ").strip()
+
+if type(character) is str or int and len(character) == 1:
     print("Valid input")
         
     ascii_value = ord(character)
@@ -30,4 +32,4 @@ if type(character) is str and len(character) == 1:
         print("It is a special character")
 
 else:
-    print("Enter only one string character. Try again")
+    print("Enter only one character. Try again")
