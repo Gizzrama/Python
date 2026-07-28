@@ -1,3 +1,4 @@
+#NESTED IF, ELIF AND ELSE STATEMENTS
 print("We are from ride building company")
 print("We provide bikes, cars and scooters.")
 choice = int(input("Enter 1 for car, 2 for bike and 3 for scooter."))
@@ -10,6 +11,7 @@ if choice == 1:
     print("3) Mountain Bike")
     choice = int(input("Enter 1 for Dirt bike, 2 for motorbike and 3 for mtb"))
    
+   #This is an example of a nested if-statement. A nested statement is always inside another conditional statement or loop, and will only execute if the larger conditional statement or loop is true.
     if choice == 1:
         print("You have chosen dirt bike.")
         print("Top speed: 150 km/h")
@@ -46,7 +48,8 @@ elif choice == 2:
         print("Top speed: 200 km/h")
         print("Smooth on roads and dirt roads")
         print("Cost 3000 Rs/- for 1 hour")
-    
+        
+    #Nested elif
     elif choice == 2:
         print("You have chosen SUV.")
         print("Top speed: 240 km/h")
