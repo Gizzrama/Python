@@ -15,4 +15,4 @@ while number >0:
     #So this while loop reverses any number given by the user. The use of the number 456 was only an example.
 
     
-print(f"The reverese of this number is {reverse}")
+print(f"The reverse order of this number is {reverse}")

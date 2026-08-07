@@ -16,7 +16,7 @@ while True:
         notes10 = atm//10
         remaining = atm%10
 
-        choice = int(input("Enter 1 for how many 100 rupees note, 2 for 500 rupees note, 3 for 50 rupees note and 4 for 10 rupees note. Enter 100 to break the loop"))
+        choice = int(input("Enter 1 for amount of 100 rupee notes, 2 for 500 rupee notes, 3 for 50 rupee notes and 4 for 10 rupee notes. Enter 100 to break the loop"))
         if choice == 100:
             break
         if choice == 1:
