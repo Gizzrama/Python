@@ -15,6 +15,3 @@ for i in range(0, rows):
     
     print()
 
-#DIAMOND
-diamond = int(input("Enter the desired number or rows: "))
-
