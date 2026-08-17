@@ -1,3 +1,7 @@
+#NESTED LOOPS
+#Nested loops are used when you want to repeat a piece of code several times. Here, we are asking the customer to draw money from the atm. 
+#The outer while loop ensures that the atm works regardless of any customers, and the inner while loop runs code for every customer who approaches the atm.
+
 while True:
     name = input("Please enter your name").strip()
     atm = int(input("How much do you want to withdraw? "))
@@ -5,7 +9,7 @@ while True:
     if atm < 0:
         print("Please withdraw more than 0 rupees.")
         continue
-
+     
     while True:
         notes500 = atm//500
         atm = atm%500

@@ -14,4 +14,3 @@ for i in range(0, rows):
         print(counter, end=" ")
     
     print()
-
