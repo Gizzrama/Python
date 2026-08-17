@@ -1,4 +1,4 @@
-
+#Done in previous lessons
 while True:
     print("There are five tasks to do: if you enter 1 task1 will be done and if you enter 2 task2 will be done. 3 for task3, 4 for task4 and 5 for task5.")
     choice = int(input("Enter 1 for task1, 2 for task2, 3 for task3, 4 for task4, 5 for task5. Enter 100 if you want to exit."))
