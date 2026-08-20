@@ -4,9 +4,8 @@ def total_bill(bill_amount, tip_perc):
     return total
 
 def seating_arrangements(guests):
-    guests = int(input("Welcome! How many are dining at our restaurant today?"))
     """This shows the total amount of seating arrangements for the number of guests dining at the restaurant"""
-    if guests == - or guests = 1:
+    if guests == 0 or guests == 1:
         return 1
     
     elif guests > 1:
@@ -14,8 +13,11 @@ def seating_arrangements(guests):
 
     else:
         print("ERROR: Minimum value is 0")
+
+guests = int(input("Welcome! How many are dining at our restaurant today?"))
+
     
-total_bill(150, 20)
-print(seating_arrangements(guests).___doc___)
+print(total_bill(150, 20))
+print(seating_arrangements(guests).__doc__)
 
 print(f"The total number of seating arrangements for {guests} guests are {seating_arrangements(guests)}")
