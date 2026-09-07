@@ -1,4 +1,4 @@
-#You will create a marks analyzer for a small class. The program will store student marks in a list, repeat a sample list, 
+#You will create a marks analyser for a small class. The program will store student marks in a list, repeat a sample list, 
 #find the number of marks, access selected values, slice and reverse the list, find matching marks using a loop, calculate the sum and average,
 #and print the smallest and largest marks.
 
