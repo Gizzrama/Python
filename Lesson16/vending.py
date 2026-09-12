@@ -1,3 +1,5 @@
+#In this piece of code, we are trying to buy items from a vending machine.
+#All of these concepts have been learnt in the previous classes.
 def calculate_change(total, price):
     return total - price
 
