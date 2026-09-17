@@ -34,7 +34,9 @@ for i in student:
 for j in duplicate:
     student.pop(j)
 
-print("Remaining number of students in the record", len(student))
+print("Remaining number of students in the record:", len(student))
+
+
 
 
 

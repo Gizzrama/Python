@@ -7,7 +7,7 @@ while True:
     print(f"The last element in the tuple is", tuple1[-1])
 
     print(f"The first three elements are", tuple1[0:3])
-    print(f"The last three element in the tuple are", tuple1[-4:-1])
+    print(f"The last three elements in the tuple are", tuple1[-3: len(tuple1) + 1])
     print("The reverse order of the tuple is", tuple2)
     break
 

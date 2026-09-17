@@ -1,19 +1,21 @@
-tuple1 = (1, 2, 3, 3, 5, 1)
-tuple2 = tuple(reversed(tuple1))
+number = eval(input("Enter a few numbers separated by a comma:"))
+palindrome = tuple(number)
+#tuple1 = (1, 2, 3, 3, 5, 1)
+tuple2 = tuple(reversed(palindrome))
 
-if tuple2 == tuple1:
+if tuple2 == palindrome:
     print("The tuple is a palindrome")
 
 else:
-    pass
+    print("The tuple is not a palindrome")
 
 
 #ANOTHER WAY
 start = 0
-end = len(tuple1) - 1
+end = len(palindrome) - 1
 answer = True
 while start <= end:
-    if tuple1[start] != tuple1[end]:
+    if palindrome[start] != palindrome[end]:
         answer = False
         break 
     start += 1
