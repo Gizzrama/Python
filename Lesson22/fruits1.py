@@ -10,3 +10,4 @@ print("The numbers in the array are", fruits, "and there is a new number at inde
 
 fruits.reverse()
 print("The reversed order of the numbers in the array is", fruits)
+

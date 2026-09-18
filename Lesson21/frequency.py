@@ -1,10 +1,10 @@
 number = {
-    "Srihari":91,
-    "Harshal":92,
-    "Arham":93,
-    "Aarav":94,
-    "James":85,
-    "Nicole":88
+    "A":91,
+    "B":92,
+    "C":93,
+    "D":94,
+    "E":85,
+    "F":88
 }
 
 for i in number:

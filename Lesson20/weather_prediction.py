@@ -16,5 +16,3 @@ else:
     print("It is a rainy day")
 
 
-
-    
