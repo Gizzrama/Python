@@ -1,14 +1,14 @@
 number = [5, 7, 11, 2, 6, 8]
 
 sum = 0
-for i in range(len(number)):
-    sum += number[i]
+for i in range(len(number) + 1): #--> i = length of list (how many elements in list) = 6. range(0, i) = range(0, 7) since 2nd parameter is exclusive
+    sum += number[i] #--> i = elements, i = 5, 7, 11, 2, 6, 8
 
 print("The sum of all the numbers is", sum)
 print("The average of all the numbers is", sum/len(number))
 
 count = 0
-for i in number:
+for i in number: 
     count = count + i
 
 

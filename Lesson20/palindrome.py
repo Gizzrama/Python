@@ -1,7 +1,7 @@
+#One way to determine if the tuple is a palindrome or not
 number = eval(input("Enter a few numbers separated by a comma:"))
 palindrome = tuple(number)
-#tuple1 = (1, 2, 3, 3, 5, 1)
-tuple2 = tuple(reversed(palindrome))
+tuple2 = tuple(reversed(palindrome)) #--> reveresed() can be applied to a tuple, one of the only functions that works on tuples
 
 if tuple2 == palindrome:
     print("The tuple is a palindrome")
@@ -10,7 +10,7 @@ else:
     print("The tuple is not a palindrome")
 
 
-#ANOTHER WAY
+#Another Way
 start = 0
 end = len(palindrome) - 1
 answer = True

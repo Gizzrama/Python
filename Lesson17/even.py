@@ -9,11 +9,11 @@
 #the risky code for any errors, and the except block needs this to sabotage any errors. But the try block doesn't need the except block, since it just stores risky
 #code, and doesn't deal with errors.
 
-#Line 18: valid is set to False, since 'We are not successful yet'. Remember False always has a value even if it is assigned to a variable, since it is a boolean. 
+#Line 17: valid is set to False, since 'We are not successful yet'. Remember False always has a value even if it is assigned to a variable, since it is a boolean. 
 #         However if False is written with a lower-case f, then it is undefined, so if I write valid = false, the false has no value before it is assigned to valid.
-#Line 19: while not valid ensures that while loop is not false, thus while True
-#Line 23: valid is set to True, which breaks the loop. Note that 'while not valid:' is not the same as 'valid = True'. *Explained at the end*
-#Line 31: except can sabotage a certain type of error in python, or just all errors in general, like in Line 30 & 33 respectively.
+#Line 18: while not valid ensures that while loop is not false, thus while True
+#Line 22: valid is set to True, which breaks the loop. Note that 'while not valid:' is not the same as 'valid = True'. *Explained at the end*
+#Line 30: except can sabotage a certain type of error in python, or just all errors in general, like in Line 30 & 33 respectively.
 valid = False
 while not valid:
     try:
