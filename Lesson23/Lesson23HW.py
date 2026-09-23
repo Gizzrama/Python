@@ -9,12 +9,50 @@ library = {
     "Cat's Cradle":3
 }
 
+for title, copies in library.items():
+    print(f"Copies left for {title}: {copies}")
 
+print("Each book costs $3")
+cost = 0
+book_count = 0
 while True:
-    choice = int(input("Enter 0 to borrow 'Macbeth' by Shapespeare, 1 for 'Life of Pi' written by Yann Martel, 2 for 'The Book Thief', written by Markus Zusak, 3 'Animal Farm' by George Orwell and 4 for 'Cat's Cradle', written by Kurt Vonnegut. Enter 100 to stop borrowing."))
+    choice = int(input("\nEnter 1 to borrow 'Macbeth' by Shapespeare, 2 for 'Life of Pi' written by Yann Martel, 3 for 'The Book Thief', written by Markus Zusak, 4 'Animal Farm' by George Orwell and 5 for 'Cat's Cradle', written by Kurt Vonnegut. Enter 100 to stop borrowing."))
 
-    for i in library:
-        print(library[i])
-        
+    if choice == 1:
+        print("Out of stock")
+        continue
 
-    
+    elif choice == 2:
+        print("You have borrowed Life of Pi")
+        book_count += 1
+        cost += 3
+
+    elif choice == 3:
+        print("You have borrowed The Book Thief")
+        book_count += 1
+        cost += 3
+
+    elif choice == 4:
+        print("Out of stock")
+        continue
+
+    elif choice == 5:
+        print("You have borrowed Cat's Cradle")
+        book_count += 1
+        cost += 3
+
+    elif choice == 100:
+        confirm = input("Would you like to end purchase? Click yes or no:").strip().lower()
+        if confirm == "yes":
+            print("--Loop Ended--")
+            break
+
+        else:
+            continue
+
+    else:
+        print("Invalid number")
+
+
+print("\nBooks Bought:", book_count)
+print(f"Total Cost: ${cost}")
