@@ -1,3 +1,5 @@
+#1) Inheritance
+
 class FamilyMember:
     def intro(self):
         print("This is a parent class intro function.")
