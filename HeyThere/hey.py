@@ -1,2 +1,2 @@
 import math
-print(math.kwlist)
+print(dir(math))
